@@ -1,0 +1,80 @@
+/* Styles for the body/page background */
+body {
+  background-color: lightblue; /* Sets the page background to light blue */
+  color: slategray; /* Default text color (fallback for elements without specific color) */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern, clean font */
+  margin: 0; /* Removes default browser margin */
+  padding: 20px; /* Adds space inside the body */
+  display: flex; /* Uses flexbox for centering */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  min-height: 100vh; /* Makes body at least the full viewport height */
+}
+
+/* Styles for the card container */
+.card {
+  background-color: white; /* White background for the card */
+  padding: 40px; /* Space inside the card */
+  border-radius: 20px; /* Rounded corners on the card */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  max-width: 600px; /* Maximum width of the card */
+}
+
+/* Styles for the h1 heading (name) */
+h1 {
+  font-size: 3em; /* Makes the heading 3 times larger than normal text */
+  text-align: center; /* Centers the text */
+  color: darkblue; /* Makes the heading dark blue */
+}
+
+/* Styles for h2 headings (section titles) */
+h2 {
+  font-size: 1.8em; /* Makes section titles 1.8 times larger */
+  text-align: center; /* Centers the text */
+}
+
+/* Styles for h3 headings */
+h3 {
+  font-size: 1.5em; /* Makes h3 slightly smaller than h2 */
+  text-align: center; /* Centers the text */
+}
+
+/* Styles for h4 headings */
+h4 {
+  font-size: 1.2em; /* Makes h4 same size as paragraphs */
+  text-align: center; /* Centers the text */
+}
+
+/* Styles for all paragraph text */
+p {
+  text-align: center; /* Centers all paragraphs */
+  font-size: 1.2em; /* Makes text slightly larger than default */
+  line-height: 1.6; /* Adds space between lines for readability */
+  color: black; /* Makes paragraph text black */
+}
+
+/* Styles for bulleted lists */
+ul {
+  text-align: center; /* Centers the list */
+  list-style-position: inside; /* Positions bullets inside the text flow */
+}
+
+/* Styles for list items */
+li {
+  font-size: 1.2em; /* Makes list items same size as h4 and paragraphs */
+  line-height: 1.6; /* Adds space between list items */
+  color: black; /* Makes list text black */
+}
+
+/* Styles for links in the list */
+a {
+  color: darkblue; /* Makes links dark blue */
+  text-decoration: none; /* Removes underline from links */
+  transition: color 0.3s ease; /* Smooth color change on hover */
+}
+
+/* Styles for links when hovering */
+a:hover {
+  color: #0066cc; /* Changes to a brighter blue on hover */
+  text-decoration: underline; /* Adds underline on hover */
+}
