@@ -6,9 +6,20 @@ body {
   margin: 0; /* Removes default browser margin */
   padding: 20px; /* Adds space inside the body */
   display: flex; /* Uses flexbox for centering */
+  flex-direction: column; /* Stacks items vertically */
   justify-content: center; /* Centers content horizontally */
   align-items: center; /* Centers content vertically */
   min-height: 100vh; /* Makes body at least the full viewport height */
+}
+
+/* Styles for the profile photo */
+.profile-photo {
+  width: 150px; /* Fixed width for the photo */
+  height: 150px; /* Fixed height for the photo */
+  border-radius: 50%; /* Makes the photo circular */
+  object-fit: cover; /* Ensures photo fills the circle properly */
+  margin-bottom: 20px; /* Space between photo and card */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
 }
 
 /* Styles for the card container */
